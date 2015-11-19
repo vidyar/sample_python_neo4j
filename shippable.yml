@@ -1,5 +1,6 @@
 language: python
 
+archive: true
 
 python:
   - 2.7
