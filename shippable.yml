@@ -5,6 +5,8 @@ archive: true
 python:
   - 2.7
 
+env:
+ - secure: TWYoE6pO+mdHDCSt4l5CNXhqutQ5ESyXyNwx9RddV13PLP1hJEo5L3dWeS5yN40caF3Pcq/JA+BdxQiqmJVPQzK+qacXzxpLOEbt4lbzJ7fZ9Vt05Ou80fW3YctFle4DqdQ3romwEX+/vB8JUabJ4+ckRAhsUsmeaXOamt2PAXEf8FYP+cDq+H6ttHFwBwy4vlBxKwO8HLCi9Je21V2tCCeU8fXTvaszNXksjbEDw1YfWJBH5MCM9KADBy/8SIm4e1aLjunQO51A1nzAUQi5H1d2nTbcUYNXxic4Qt4YgQb/ftex0XMa3SMsMETVTvd1B7fJRyeAA+vfzJh8IgxDWQ==
 # Mongo binds to 127.0.0.1 by default
 services:
   - neo4j
@@ -16,7 +18,7 @@ install:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-
+  - echo $key1
 script:
   - nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - coverage run --branch test.py
