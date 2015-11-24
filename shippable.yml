@@ -3,6 +3,9 @@ language: python
 python:
   - 2.7
 
+env:
+ - secure: egsI0mYMqP+cQRXXKETkfmKFhY3ViSsLBnjRspafeQ27B1U881EoCe9dWqFHDoHmxGvy6+6X26UshPfKy5WTVz9BHDTQ+VNUnfgrRhDM40DIt2qiMyxoCRbETHS0JSkVXxylrj0Uy1nApURWca8mSWp9LBEfaAwKNC+7S7+QJQhOg2pk8kBTQmbA8dWK0kskqYFrlRPmHVwLtZawer1oKG5JAVKiPbXP8TYvJOPJp40rKAKO629b2LQ3eSpTdqD0J3bl99TdakgJsTj9h/QWSRMEwaDIQzrUohV4TuXerp5X+GtbfjPPBtNbJZnGLl1UE/hwUI64a6v6tQUSOE894Q==
+ - secure: OI+xyel+Xo2dm3gKFgUdMS3vndVxpXs4UPI4n4m1tPhk+1XqXS2zuHT+WheKObVvXxZwMx1PfkU+LuLyssdGvJY32mDHN+cgSrY1v43kLRGwwhBHN6ltbd5aoFYCiHpDV2/1ZyG/AytKlfmRgIf5Zouw/JSALfFhg4ERq5sLnPGfDZJ1gA7MtPRX0WKLI/pTFjmdHjKtYiYACSUeqyAVkPK7g2ljHkX9i40Vf7OzjpD8PaJku/s0Ag77AxM9UrU56DAAMZruczYRvHLIxRSNiyERpkMLo2S7oNiTJryyPaLman0V0MPM98j03ivPnpSd6rEHYnyms85bV51jkQl45Q==
 # Mongo binds to 127.0.0.1 by default
 services:
   - neo4j
