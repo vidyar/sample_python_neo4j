@@ -3,7 +3,10 @@ language: python
 python:
   - 2.7
 
-# Mongo binds to 127.0.0.1 by default
+env:
+  - secure: CYAxbzpMlioyiKsByy5tQ7Vh3hbKGWpYvi8GXwIWPwfTAG/TAXM/piL+LBbyOw4Rd+u/ukP57OjW4bitPVifq7Ec1joXc/GE/pl8vugsVC5qYYIRvYOcMJSJHWVOw8hVlJxop5v1Egq7OPTidQtOzkV7pQQrdQ3thFTrEkPkzJcn2quI6n8FG7dfMTJx5lLkF87PXTyIawomUZgOi+2u9Ufv2+uf1khIBZJgk9LjS4yLw0qnZmZsOeKbSQM0Iz3Yn2tEGZQ8doeJY1C2Ec0pBbmIM9QXBKuEQCA2CLvkcZaxKyzqoohgDhjP9vd1guJTPDUAlfvLaICcN8AK2Wh73w==
+
+Mongo binds to 127.0.0.1 by default
 services:
   - neo4j
 
