@@ -22,3 +22,6 @@ script:
   - nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - coverage run --branch test.py
   - coverage xml -o shippable/codecoverage/coverage.xml test.py
+  
+after_script:
+  - echo $envv1
