@@ -9,6 +9,7 @@ services:
   - neo4j
 #build_image: shippable/minv2
 
+
 env:
   - secure: g3zGrwEN8TXYDnFitTEyyR1P+mw5NQRihi9eV+SW8epZh3/8GEN+tAosjwkrFwj9kzJP4129bJCvgCmfSsWztW/wypx68oNZIUTe3F4DwIHQiqZBmAM1k2MsBduGixzmPabgxIw5mz6Xs9/fMpf/Jd5akn8hOs0Cw2aNV4pxqFKbUjBPj5c1oQfovhc3Z7NW7o2Oyq7jnlyrC26KMxW4DO7HKUq/xYVa/RVCy73OVH7Bg2OqQ3K8JIohXLV4jmCiWDV6iIDf9TnPS7Jd+2GcqRdDeK5WNFojwKGYkhbJPb6fOPIHipyul5SzcMqL0MibkQhvNOwaLJJzydHghJxSvg==
 
